@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 398034690727836724}
   - component: {fileID: 7287761860507775878}
   - component: {fileID: 8274357728051085873}
-  - component: {fileID: 6558621317028828979}
+  - component: {fileID: 9000477996200641160}
+  - component: {fileID: 3685235389722983191}
   m_Layer: 0
   m_Name: Meds
   m_TagString: Untagged
@@ -330,17 +331,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3083208390916501009}
   m_Mesh: {fileID: 0}
---- !u!64 &6558621317028828979
-MeshCollider:
+--- !u!135 &9000477996200641160
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3083208390916501009}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: -0.06609202, y: 0.08768766, z: -0.13138773}
+--- !u!114 &3685235389722983191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3083208390916501009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e595c939ef1d9ef45973528539399f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
