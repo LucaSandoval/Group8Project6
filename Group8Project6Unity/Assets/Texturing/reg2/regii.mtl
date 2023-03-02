@@ -1,0 +1,12 @@
+newmtl DefaultHDMaterial
+Kd 0.7279412 0.7279412 0.7279412
+d 1
+
+newmtl shelf
+Kd 1 1 1
+d 1
+
+newmtl Vitamin
+Kd 1 1 1
+d 1
+
